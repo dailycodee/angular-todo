@@ -9,6 +9,9 @@ export class LoginPageComponent implements OnInit {
 
   constructor() { }
 
+  public inputPass: string = '';
+  public inputLogin: string = '';
+
   ngOnInit(): void {
   }
 
